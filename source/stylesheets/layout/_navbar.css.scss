@@ -114,7 +114,7 @@ $navbar-profile-border-width: 2px;
 
   .navbar-nav > li > .dropdown-menu:before{
     position: absolute;
-    background: white;
+    background: $gray-light;
     height: 10px;
     width: 10px;
     content: "\00a0";
