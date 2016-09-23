@@ -51,7 +51,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Suivez-moi <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                <li><a href="https://www.instagram.com/kanda_yoga/"><i class="fa fa-twitter-square"></i> Instagram</a></li>
               </ul>
             </li>
             <!-- <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order your stylus</a></li> -->
@@ -92,14 +92,18 @@
         <div class="row">
           <div class="col-xs-4">
             <ul class="list-inline">
-              <li><a href=""><i class="fa fa-youtube"></i></a></li>
-              <li><a href=""><i class="fa fa-instagram"></i></a></li>
-              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-              <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              <li><% link_to "www.instagram.com/kanda_yoga" do %>
+                  <i class="fa fa-instagram"></i>
+                <% end %>
+              </li>
+              <li><% link_to "#" do %>
+                  <i class="fa fa-facebook"></i>
+                <% end %>
+              </li>
             </ul>
           </div>
           <div class="col-xs-8 text-right">
-            <p>Stylus is a fictive product by LeWagon</p>
+            <p>Site réalisé par Luc Monteil. Namasté.</p>
           </div>
         </div>
       </div>
