@@ -3,18 +3,42 @@
   padding: 10px 0;
   color: $gray-lighter;
   p {
-    margin-top: 17px;
+    margin-top: 19px;
+    font-size: 14px;
   }
   ul {
     margin-top: 10px;
-  }
-  a {
     color: $gray-lighter;
     font-size: 30px;
     letter-spacing: 20px;
     transition: color 0.5s ease;
     &:hover{
-      color: #16a085;
+      color: #49BEC4;
     }
   }
 }
+
+.fa {
+  color: $gray-lighter;
+  font-size: 30px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease;
+  &:hover{
+    color: #49BEC4;
+  }
+}
+
+.fa-heart {
+  color: #49BEC4;
+  font-size: 15px;
+  }
+
+#signature a{
+    color: $gray-lighter;
+    padding-top: 20px;
+    font-size: 15px;
+    transition: color 0.5s ease;
+    &:hover{
+      color: #49BEC4;
+    }
+  }

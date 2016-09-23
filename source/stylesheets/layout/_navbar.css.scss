@@ -90,8 +90,8 @@ $navbar-profile-border-width: 2px;
   }
 
   .navbar-brand img, .navbar-brand svg, .navbar-brand object{
-    height: $navbar-height;
-    padding: 0px;
+    height: 44px;
+    margin-left: 20px;
   }
 
   .img-avatar{
@@ -141,7 +141,17 @@ $navbar-profile-border-width: 2px;
     &:hover{
     color: #7f8c8d
     }
+    &:hover {
+    color: #49BEC4;
   }
+}
+
+.navbar-wagon .navbar-nav > li > a {
+    &:hover {
+    color: #49BEC4;
+  }
+}
+
 
 /* -------------------------------------
  * Navbar profile picture

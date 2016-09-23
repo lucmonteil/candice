@@ -7,7 +7,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Candice Yoga" %></title>
+    <title><%= current_page.data.title || "Kanda Yoga" %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
           </button>
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag 'lotus-position.svg' %>
+            <%= image_tag 'logo_omm.png' %>
           <% end %>
         </div>
 
@@ -92,7 +92,7 @@
         <div class="row">
           <div class="col-xs-4">
             <ul class="list-inline">
-              <li><% link_to "www.instagram.com/kanda_yoga" do %>
+              <li><% link_to "https://www.instagram.com/kanda_yoga" do %>
                   <i class="fa fa-instagram"></i>
                 <% end %>
               </li>
@@ -102,8 +102,9 @@
               </li>
             </ul>
           </div>
-          <div class="col-xs-8 text-right">
-            <p>Site réalisé par Luc Monteil. Namasté.</p>
+          <div id="signature" class="col-xs-8 text-right">
+            <a href="mailto:lucmonteil.pro@gmail.com?subject=Contact%20via%20Kanda%20Yoga" class="navbar-wagon-item navbar-wagon-button btn">Made with  <i class="fa fa-heart"></i>by Luc Monteil. Namasté.
+            </a>
           </div>
         </div>
       </div>
