@@ -1,8 +1,11 @@
-- name: Hatha Yoga
-  picture: http://placehold.it/150x150
-  summary: The <strong>original</strong> Stylus.<br>No fancy, just performant
+hatha:
+  name: Hatha Yoga
+  picture: candice_hatha.JPG
+  summary: blablabla
   color: danger
-- name: Ashtanga Yoga
-  picture: http://placehold.it/150x150
-  summary: The <strong>smartest</strong> Stylus.<br>Write no more typos..
+
+ashtanga:
+  name: Ashtanga Yoga
+  picture: candice_ashtanga.jpg
+  summary: blablabla
   color: primary
