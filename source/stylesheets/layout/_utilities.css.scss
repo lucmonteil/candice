@@ -7,6 +7,16 @@
   padding-bottom: 10em;
 }
 
+.little-padded {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  h2{
+    font-size: 50px;
+    color: white;
+    font-family: "BrandonLight";
+  }
+}
+
 .bg-primary{
   background-color: #a0cfeb;
 }
@@ -36,8 +46,21 @@
   width: 300px;
 }
 
+#PHOTO
 
+.contact {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
 
+.photo_contact{
+  height: 415px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+
+}
 
 #CARD
 
