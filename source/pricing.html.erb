@@ -2,46 +2,28 @@
 title: Mes Cours
 ---
 
-
-<div class="wrapper-grey padded" >
-  <div class="container" id="pricing">
-  <h1 class="text-center">Mes cours</h1>
+<div class="wrapper-grey parcours-page text-center">
+  <div class="container text-center">
     <div class="row">
-      <% data.pens.each do |owner, pen| %>
-      <div class="col-xs-12 col-sm-6">
-        <div class="card-photo" style="background-image: url('<%= image_path pen.picture %>');">
-          <div class="card-description">
-            <h2><%= pen.name %> </h2>
-          </div>
-        </div>
+    <h1>Mes cours</h1>
+      <div class="col-xs-12 col-sm-6 text-center">
+        <h5><span id="underlined">Hatha Yoga</h5></span>
+        <%= image_tag('candice_hatha.JPG', :class => "photo_cours" ) %>
+        <h6 class="text-justify">Le Hatha Yoga répond à des problématiques de la vie moderne comme l’accélération des rythmes de vie et la recherche d’un équilibre corps-esprit.
+        <br>
+        Il s’agit d’un outil efficace pour éliminer le stress, booster la vitalité et retrouver le calme, qui se concrétise par un enchaînement de postures (āsana) et une discipline du souffle (prāṇāyāma).
+        <br>
+        </h6>
       </div>
-      <% end %>
-    </div>
-  </div>
-</div>
-
-
-<div class="wrapper-grey padded" >
-  <div class="container" id="pricing">
-  <h1 class="text-center">Mes cours</h1>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="card-photo" style="background-image: url('<%= image_tag "candice_hatha.JPG" %>');">
-          <div class="card-description">
-            <h2>Hatha Yoga</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="card" style="background-image: url('<%= image_tag "candice_ashtanga.jpg" %>');">
-          <div class="card-description">
-            <h2>Asthanga Yoga</h2>
-          </div>
-        </div>
+      <div class="col-xs-12 col-sm-6 text-center">
+        <h5><span id="underlined">Asthanga Yoga</h5></span>
+        <%= image_tag('candice_ashtanga.jpg', :class => "photo_cours" ) %>
+        <h6 class="text-justify">Cette méthode de Yoga dynamique inclus la synchronisation de la respiration avec une série de postures progressives et adaptées.
+        <br>L’Ashtanga Yoga porte une attention équilibrée au développement de la force, de la souplesse, de l’équilibre et de la résistance.
+        <br>La pratique régulière amène une meilleure conscience du corps, un équilibre du mental et développe la concentration.
+        </h6>
       </div>
     </div>
   </div>
 </div>
-
-
 

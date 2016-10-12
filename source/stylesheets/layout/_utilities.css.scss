@@ -10,6 +10,11 @@
 .parcours-page {
   padding-top: 5em;
   padding-bottom: 5em;
+  h1{
+    font-size: 50px;
+    color: #777777;
+    font-family: "BrandonLight";
+  }
   h2{
     font-size: 50px;
     color: white;
@@ -20,11 +25,18 @@
     color: white;
     font-family: "BrandonLight";
   }
-  h3{
+  h5{
+    font-size: 28px;
+    color: #777777;
+    font-family: "BrandonLight";
+  }
+  h6{
     font-family: "Open Sans", "Helvetica", "sans-serif";
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.4;
     font-weight: lighter;
+    padding-left: 24px;
+    padding-right: 25px;
   }
   a{
     color: #f5f5f5;
@@ -32,6 +44,9 @@
   }
 }
 
+#underlined{
+  box-shadow:inset 0px -9px #49BEC4;
+}
 
 .bg-primary{
   background-color: #a0cfeb;
@@ -40,7 +55,6 @@
 
 
 #ICONES #FONT-AWESOME
-
 
 .fa {
   color: $gray-lighter;
@@ -74,7 +88,7 @@
 .fa-facebook {
   font-size: 24px;
   color: $gray-lighter;
-  margin-left: 10px;
+  margin-right: 20px;
     &:hover{
     color: #49BEC4;
   }
@@ -83,9 +97,14 @@
 .fa-instagram {
   font-size: 24px;
   color: $gray-lighter;
+  margin-right: 20px;
     &:hover{
     color: #49BEC4;
   }
+}
+
+.fa-envelope{
+  margin-right: 20px;
 }
 
 #PHOTO
@@ -109,6 +128,16 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.photo_cours{
+  height: 490px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 
 .question{
   text-decoration: underline;
