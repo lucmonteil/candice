@@ -35,27 +35,30 @@
 
 .bg-primary{
   background-color: #a0cfeb;
-}
+  min-height: calc(100vh - 65px) !important;
+  }
 
 
-#FONT-AWESOME
+#ICONES #FONT-AWESOME
 
-.fa-heart {
-  font-size: 17px;
-  margin-right: -10px;
-  color: #95a5a6;
+
+.fa {
+  color: $gray-lighter;
+  letter-spacing: 20px;
+  transition: color 0.5s ease;
+  &:hover{
+    color: #49BEC4;
+  }
 }
 
 .fa-female {
-  font-size: 17px;
-  margin-right: -12px;
-  color: #95a5a6;
+  font-size: 18px;
+  margin-right: 5px;
 }
 
 .fa-slack {
-  font-size: 17px;
-  margin-right: -12x;
-  color: #95a5a6;
+  font-size: 15px;
+  margin-right: 8px;
 }
 
 .dropdown-menu .fa {
@@ -63,8 +66,27 @@
   margin-right: -12px;
 }
 
+.fa-heart {
+  font-size: 15px;
+  margin-right: 5px;
+}
 
+.fa-facebook {
+  font-size: 24px;
+  color: $gray-lighter;
+  margin-left: 10px;
+    &:hover{
+    color: #49BEC4;
+  }
+}
 
+.fa-instagram {
+  font-size: 24px;
+  color: $gray-lighter;
+    &:hover{
+    color: #49BEC4;
+  }
+}
 
 #PHOTO
 

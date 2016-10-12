@@ -17,20 +17,9 @@
   }
 }
 
-.fa {
-  color: $gray-lighter;
-  font-size: 30px;
-  letter-spacing: 20px;
-  transition: color 0.5s ease;
-  &:hover{
-    color: #49BEC4;
-  }
+.heart-footer {
+  color: #ee5f5b;
 }
-
-.fa-heart {
-  color: #49BEC4;
-  font-size: 15px;
-  }
 
 #signature a{
     color: $gray-lighter;
