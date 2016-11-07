@@ -2,7 +2,7 @@
 # Compass
 ###
 
-require_relative "./lib/build_cleaner"
+require_relative "./build_cleaner"
 
 
   # Optional Settings
