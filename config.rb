@@ -2,15 +2,14 @@
 # Compass
 ###
 
-activate :deploy do |deploy|
-  deploy.method = :git
-  deploy.build_before = true
+require_relative "./lib/build_cleaner"
+
+
   # Optional Settings
   # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
   # deploy.branch   = 'custom-branch' # default: gh-pages
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
-end
 
 
 # Change Compass configuration
@@ -78,7 +77,7 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
   set :relative_links, true
-
+  activate :build_cleaner
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
